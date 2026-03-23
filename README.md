@@ -26,5 +26,5 @@ a. Go to the website "https://yanglab.qd.sdu.edu.cn/trRosetta/" andrRun trRosett
 b. Run the python file of feature distillation, trrosetta_feature_distillation.py (python model/trrosetta_feature_distillation.py --input file --output file) to get the output file (input file directory which contains tr_A7RDD3.npz). 
 
 ## Prediction
-a. Put "iupred_A7RDD3.npy", "ESM-C_A7RDD3.npy" and "tr_A7RDD3.npz" in the "feature" folder, Put "best_model.pt" and "config.json" in the "best_model" folder and keep "A7RDD3.fasta", "model.py", "predict_single.py", "utils.py", "feature" folder and "best_model" folder in the same path.
+a. Put "iupred_A7RDD3.npy", "ESM-C_A7RDD3.npy" and "tr_A7RDD3.npz" in the "feature" folder, Put "best_model.pt" and "config.json" in the "best_model" folder (the two files are downloaded in "trpHopt v1.0.0" release )and keep "A7RDD3.fasta", "model.py", "predict_single.py", "utils.py", "feature" folder and "best_model" folder in the same path.
 b. Run the "predict_single.py" (python predict_single.py ./best_model ./feature/ESM-C_A7RDD3.npy ./feature/iupred_A7RDD3.npy ./feature/tr_A7RDD3.npz ./A7RDD3.fasta) to get the optimal pH.
