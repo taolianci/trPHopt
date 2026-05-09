@@ -1,6 +1,6 @@
 # Structure-Guided Hybrid GCN-Transformer Framework for Enzyme Optimal pH Prediction
 
-This tool performs pH prediction and classification for a single protein sequence using a pre-trained Two-Stage Predictor model. It integrates multiple feature modalities including ESMC representations, IUPred disorder predictions, and trRosetta structural features.
+This tool performs optimal pH prediction for a single enzyme sequence using the hybrid GCN-Transformer Framework. It integrates multiple feature modalities including ESMC representations, IUPred disorder predictions, and trRosetta structural features.
 
 In the following, we take a enzyme sequence file as an example to show the prediction process. 
 Here, the enzyme sequence file with uniprot_id 'A7RDD3'.
