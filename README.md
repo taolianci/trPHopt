@@ -24,8 +24,8 @@ b. Put extr\_iupred2a.py in the iupred2a files, and run extr\_iupred2a.py (pytho
 a. Go to the website "https://huggingface.co/EvolutionaryScale/esmc-300m-2024-12" and download the weights package.
 b. run "ESM-C\_extraction.py" (python ESM-C\_extraction.py A7RDD3.fasta ) to get the out file "ESM-C\_A7RDD3.npy"
 4. Structure feature
-a. Go to the website "https://yanglab.qd.sdu.edu.cn/trRosetta/" andrRun trRosetta with the sequence of 'A7RDD3.fasta' as input to get the output file and rename it as 'tr\_A7RDD3.npz'.
-b. Run the python file of feature distillation, trrosetta\_feature\_distillation.py (python model/trrosetta\_feature\_distillation.py --input file --output file) to get the output file (input file directory which contains tr\_A7RDD3.npz).
+a. Go to the website "https://yanglab.qd.sdu.edu.cn/trRosetta/" and Run trRosetta with the sequence of 'A7RDD3.fasta' as input to get the output file and rename it as 'tr\_A7RDD3.npz'.
+b. Run the python file of feature distillation, trrosetta_feature_distillation.py (python model/trrosetta_feature_distillation.py --input folder --output folder) to get the output file (input folder contains tr_A7RDD3.npz which is caculated from trRosetta server,  After running, the output folder will contain a distillation file with the same name ).
 
 ## Prediction
 
